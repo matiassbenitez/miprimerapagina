@@ -153,8 +153,6 @@ footer{
       align-items: center;
       gap:70px;
       font-size: 40px;
-  
-  
     }
     .divImg{
       flex-direction: column;
@@ -170,4 +168,8 @@ footer{
   }
  .greetings{
   text-align: center;
+  padding-bottom: 20px;
+}
+.greetings p{
+  font-style: italic;
  }
