@@ -168,4 +168,6 @@ footer{
       align-items: center;
     }
   }
- 
+ .greetings{
+  text-align: center;
+ }
