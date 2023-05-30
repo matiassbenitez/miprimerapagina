@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi primer Website</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="#" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </div>
+        <div class="container">
+            <h1>Acerca de</h1>
+            <p>
+                ¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más
+                sobre nuestra empresa y los servicios que ofrecemos.
+            </p>
+            <div class="divImg">
+                <img class="imagen" src="imagen1.jpeg" alt="Descripción de la imagen 1"  />
+                <img class="imagen" src="imagen2.jpg" alt="Descripción de la imagen 2" />
+                <img class="imagen" src="imagen3.jpeg" alt="Descripción de la imagen 3" />
+            </div>
+            <button onclick="showAlert()">¡Haz click en mí!</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
